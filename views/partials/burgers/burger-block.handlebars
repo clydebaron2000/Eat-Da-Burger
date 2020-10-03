@@ -1,9 +1,14 @@
-<li>
-	{{burger_name}}
+<li style="width:auto;max-width:200px">
+	<span style="display:block;text-align:center;">
+		{{burger_name}}
+	</span>
+	<img src="https://www.seriouseats.com/recipes/images/2015/07/20150702-sous-vide-hamburger-anova-primary-1500x1125.jpg" alt="Burger" style="width:90%">
+	<div style="display: block;">
 
 	<button class="change-eaten" data-name="{{burger_name}}" data-id="{{id}}" data-eaten="{{devoured}}">
 		{{#if devoured}}Yum!{{else}}Must eat!{{/if}}
 	</button>
 
-	{{!-- <button class="delete" data-id="{{this.id}}">DELETE!</button> --}}
+	<button class="delete" data-id="{{this.id}}">DELETE!</button>
+	</div>
 </li>

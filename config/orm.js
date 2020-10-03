@@ -28,6 +28,12 @@ var orm = {
             if (err) throw err;
             callback(result);
         });
+    },
+    deleteOne: function(table, id, callback) {
+        connection.query(`delete from ${table} where id=${id}`, function(err, result) {
+            if (err) throw err;
+            callback(result);
+        });
     }
 };
 module.exports = orm;
