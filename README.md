@@ -18,7 +18,7 @@ This project utilizes `express` and `express-handlebars` to create a burger logg
 
 Deployed application available [here](https://burger-server-cbr.herokuapp.com/).
 
-<img src='./img/new_colors.PNG' alt='Gif Demo' style="height:500px">
+<img src='./img/demo.PNG' alt='Gif Demo' style="height:300px">
 
 ---
 ## Table of Contents 
